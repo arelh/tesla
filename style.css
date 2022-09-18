@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline-offset: 2px;
+}
+body{
+    font-family: 'gotham-med,sans-serif';
+   
+}
+section{
+    height:100vh;  
+    width: 100vw;
+    font-family: 'gotham-med,sans-serif';
+} 
+.section1{
+    position: relative;
+    border: red 2px solid;
+    background-image:url(section1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    height:100vh; 
+    font-family: 'gotham-med,sans-serif';
+}
+.section2{
+    position: relative;
+    border: red 2px solid;
+    display: flex;
+    height: 100vh;
+    top: 0;
+    font-family: 'gotham-med,sans-serif';
+}
+.section3{
+    position: relative;
+    height: 76vh;
+    background-image:url("section3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    border: red 2px solid;
+    font-family: 'gotham-med,sans-serif';
+}
+
+header{
+    height: 70px;
+    width: 100vw;
+    position: sticky;
+    top:0;
+    position: relative;
+    display: flex;
+    font-size: 14px;
+   
+}
+header a{
+    padding: 3px;
+    text-decoration: none;
+}
+
+
+.icon{
+    margin-left: 48px;
+    margin-bottom:936px;
+    max-width: 120px;
+    min-height: 55px;
+    color: white;
+  
+}  
+.center_nav{
+    margin-left: 132px;
+    margin-top:18px;
+    width: 40%;
+   height: 55px;
+    justify-content: center;
+    
+}
+.right_nav{
+    margin-left: 150px;
+    margin-top:18px;
+    width: 232px;
+    height: 55px;
+    text-align: center;
+    align-items: flex-end;
+}
+a{
+    color: white;
+    font-size: 14px;
+}
+.model3{
+    margin-top:20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    outline: 2px;
+    color: white;
+    }
+
+.info{
+    margin-top: 2px;
+    margin-left: 4px;
+    height: 54px;
+    position: relative;
+    top: 64vh;
+    left: 0;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.speed{
+    height: 54px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+.top_speed{
+    width: 100%;
+    height: 50%;
+}
+.bottom_speed{
+    width: 100%;
+    height: 50%;
+}
+.range{
+    height: 54px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.awd{
+    height: 54px;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 30px 0;
+    display: flex;
+    flex-direction: column;
+}  
+.link_section1{
+    margin-top: 25px;
+}
+.link{
+    order: 3px solid white;
+    width: 196px;
+    height: 34px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_section2{
+    width: 77vw;
+    position: relative;
+}
+
+.left_section2 img{
+    width: 200px;
+    position: absolute;
+    float: left;
+}
+.right_section2{
+    box-sizing: border-box;
+    color: #171a20;
+    padding: 42px 28px 20px 10px;
+    width: 23vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid red;
+    justify-content: space-between;
+    float: right;
+}
+
+
+/* .center_desktop{ */
+    /* margin-bottom: 70px;
+   
+   
+    position: absolute; */
+
+
+/* header nav a{
+    text-decoration: none;
+    padding: 5px 10px; 
+}*/
+
+
+/* .model3{
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+section{
+    height:100vh;  
+} 
+
+
+
+
+/* section2{
+    
+}
+
+section3{
+
+}
+.info{
+    height: 20vh;
+    width: 50%;
+    border:red solid 2px
+} */
+/* .model3{
+    height: 20vh;
+    width: 50%;
+    border:red solid 2px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    z-index: -1;
+    position: absolute;
+} */
+
+
+@media (min-width:1200px) {
+    .icon{
+        margin-left: 48px;
+        margin-bottom:936px;
+        max-width: 120px;
+        min-height: 55px;
+        color: white;
+      
+    }
+
+    
+}
+
+/* overflow: hidden; נשתמש בעיצוב של הנאב בר */
